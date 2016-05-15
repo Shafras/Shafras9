@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MonthlyWiseFines" msprop:Generator_TableClassName="MonthlyWiseFinesDataTable" msprop:Generator_TableVarName="tableMonthlyWiseFines" msprop:Generator_TablePropName="MonthlyWiseFines" msprop:Generator_RowDeletingName="MonthlyWiseFinesRowDeleting" msprop:Generator_RowChangingName="MonthlyWiseFinesRowChanging" msprop:Generator_RowEvHandlerName="MonthlyWiseFinesRowChangeEventHandler" msprop:Generator_RowDeletedName="MonthlyWiseFinesRowDeleted" msprop:Generator_UserTableName="MonthlyWiseFines" msprop:Generator_RowChangedName="MonthlyWiseFinesRowChanged" msprop:Generator_RowEvArgName="MonthlyWiseFinesRowChangeEvent" msprop:Generator_RowClassName="MonthlyWiseFinesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FineMonth" msprop:Generator_ColumnVarNameInTable="columnFineMonth" msprop:Generator_ColumnPropNameInRow="FineMonth" msprop:Generator_ColumnPropNameInTable="FineMonthColumn" msprop:Generator_UserColumnName="FineMonth" type="xs:int" minOccurs="0" />
+              <xs:element name="FineAmount" msprop:Generator_ColumnVarNameInTable="columnFineAmount" msprop:Generator_ColumnPropNameInRow="FineAmount" msprop:Generator_ColumnPropNameInTable="FineAmountColumn" msprop:Generator_UserColumnName="FineAmount" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
