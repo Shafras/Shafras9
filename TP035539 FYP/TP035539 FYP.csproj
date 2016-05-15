@@ -169,7 +169,7 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
     <Content Include="bg-1.jpg" />
-    <Content Include="bg.jpg" />
+    <Content Include="skybg.jpg" />
     <Content Include="callout.jpg" />
     <Content Include="ChiefLibrarianStaff.aspx" />
     <Content Include="ClerkLibrarianView.aspx" />
@@ -182,7 +182,6 @@
     <Content Include="font-awesome\css\font-awesome.min.css" />
     <Content Include="font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="img\bg.jpg" />
     <Content Include="img\callout.jpg" />
     <Content Include="img\portfolio-1.jpg" />
     <Content Include="img\portfolio-2.jpg" />
@@ -193,6 +192,7 @@
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery.js" />
     <Content Include="LibrarianAdministrationStaff.aspx" />
+    <Content Include="img\bg.jpg" />
     <Content Include="LibraryHome.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Master.aspx" />
